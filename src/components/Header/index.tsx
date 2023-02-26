@@ -14,9 +14,9 @@ export const Header = () => {
             </h1>
 
             <span>
-                <LinksMenu href="#kitnets">NOSSOS KITNETS</LinksMenu>
-                <LinksMenu href="#regiao">A REGIÃO</LinksMenu>
-                <LinksMenu href="#sobre">SOBRE NÓS</LinksMenu>
+                <LinksMenu href="/#kitnets">NOSSOS KITNETS</LinksMenu>
+                <LinksMenu href="/#regiao">A REGIÃO</LinksMenu>
+                <LinksMenu href="/#sobre">SOBRE NÓS</LinksMenu>
                 {/* <LinksMenu> */}
                     <Link href="/formularioDeContato" as="contato">
                         CONTATO    
