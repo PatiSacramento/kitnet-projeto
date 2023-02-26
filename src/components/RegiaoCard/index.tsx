@@ -9,7 +9,7 @@ export const RegiaoCard = (props: { name: string, linkMapa: string, imagem: any 
             <Image src={props.imagem} alt="" width={200} height={200} />
             <InfosContainer>
                 <p>{props.name.toUpperCase()}</p>
-                <a href={props.linkMapa} target="_blank"> Veja no mapa</a>
+                <a href={props.linkMapa} target="_blank" rel="noreferrer"> Veja no mapa</a>
             </InfosContainer>
         </RegiaoCardContainer>
     )
