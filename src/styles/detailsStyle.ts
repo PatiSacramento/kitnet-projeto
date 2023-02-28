@@ -18,9 +18,42 @@ export const CarouselContainer = styled.div`
         h1 {
             font-weight: bold;
         }
+
     }
+
 
     @media (max-width: 768px) {
         flex-direction: column;
-    };
+
+        margin: 0.5rem;
+
+        width: auto;
+
+        div {
+            max-width: 35rem;
+            justify-content: center;
+        }
+    }
+
+
+
+    @media (max-width: 1440px) {
+        width: auto;
+
+        margin: 0.5rem;
+
+        div {
+            max-width: 40rem;
+        }
+    }
+
+    @media (min-width: 1440px) {
+        width: auto;
+
+        margin: 2rem;
+
+        div {
+            max-width: 60rem;
+        }
+    }
 `
