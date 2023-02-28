@@ -13,10 +13,8 @@ export const RegiaoCardContainer = styled.div`
         width: 100%;
         height: 70%;
 
-        //object-fit: cover;
         border-top-left-radius: 0.5rem;
         border-top-right-radius: 0.5rem;
-        //margin-top: 0.5rem;
     }
 
 

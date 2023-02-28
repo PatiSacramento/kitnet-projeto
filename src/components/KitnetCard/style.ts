@@ -8,7 +8,7 @@ export const KitnetContainer = styled.div`
 
     background-color: #217373;
     
-    margin-bottom: 1rem;
+    //margin-bottom: 1rem;
     cursor: pointer;
 
     .grow { 

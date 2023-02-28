@@ -32,7 +32,6 @@ export const KitnetsContainer = styled.div`
         display: flex; 
         gap: 2rem; 
         overflow-x: scroll;
-        aspect-ratio: 1/1;
 
         a {
             text-decoration: none;

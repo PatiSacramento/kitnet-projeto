@@ -11,7 +11,7 @@ export const Navbar = (props : { isOpen : boolean, openMenu : any}) => {
           <X size={32} weight="fill" onClick={() => props.openMenu(!props.isOpen)}/>
         </span>
         
-        <LinksMenu href="/#kitnets">NOSSOS KITNETS</LinksMenu>
+        <LinksMenu href="/#kitnets">NOSSAS KITNETS</LinksMenu>
         <LinksMenu href="/#regiao">A REGIÃO</LinksMenu>
         <LinksMenu href="/#sobre">SOBRE NÓS</LinksMenu>
         

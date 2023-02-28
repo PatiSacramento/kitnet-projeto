@@ -47,7 +47,7 @@ export default function Detalhes() {
                             alt="First slide"
                             width={500}
                             height={600}
-                            quality={100}
+                            quality={90}
                         />
                     </Carousel.Item>
                     <Carousel.Item>
@@ -57,7 +57,7 @@ export default function Detalhes() {
                             alt="First slide"
                             width={500}
                             height={600}
-                            quality={100}
+                            quality={90}
                         />
                     </Carousel.Item>
                     <Carousel.Item>
@@ -67,7 +67,7 @@ export default function Detalhes() {
                             alt="Second slide"
                             width={500}
                             height={600}
-                            quality={100}
+                            quality={90}
                         />
 
                     </Carousel.Item>
@@ -78,7 +78,7 @@ export default function Detalhes() {
                             alt="Third slide"
                             width={500}
                             height={600}
-                            quality={100}
+                            quality={90}
                         />
                     </Carousel.Item>
                     <Carousel.Item>
@@ -88,7 +88,7 @@ export default function Detalhes() {
                             alt="Fourth slide"
                             width={500}
                             height={600}
-                            quality={100}
+                            quality={90}
                         />
                     </Carousel.Item>
                     <Carousel.Item>
@@ -98,7 +98,7 @@ export default function Detalhes() {
                             alt="Fifth slide"
                             width={500}
                             height={600}
-                            quality={100}
+                            quality={90}
                         />
                     </Carousel.Item>
                     <Carousel.Item>
@@ -108,7 +108,7 @@ export default function Detalhes() {
                             alt="Fifth slide"
                             width={500}
                             height={600}
-                            quality={100}
+                            quality={90}
                         />
                         <Carousel.Caption>
                             <h3>ÁREA COMUM</h3>
@@ -121,7 +121,7 @@ export default function Detalhes() {
                             alt="Fifth slide"
                             width={500}
                             height={600}
-                            quality={100}
+                            quality={90}
                         />
                     </Carousel.Item>
                     <Carousel.Item>
@@ -131,7 +131,7 @@ export default function Detalhes() {
                             alt="Fifth slide"
                             width={500}
                             height={600}
-                            quality={100}
+                            quality={90}
                         />
                     </Carousel.Item>
                     <Carousel.Item>
@@ -141,7 +141,7 @@ export default function Detalhes() {
                             alt="Fifth slide"
                             width={500}
                             height={600}
-                            quality={100}
+                            quality={90}
                         />
                     </Carousel.Item>
                     <Carousel.Item>
@@ -151,7 +151,7 @@ export default function Detalhes() {
                             alt="Fifth slide"
                             width={500}
                             height={600}
-                            quality={100}
+                            quality={90}
                         />
                     </Carousel.Item>
                     <Carousel.Item>
@@ -161,7 +161,7 @@ export default function Detalhes() {
                             alt="Fifth slide"
                             width={500}
                             height={600}
-                            quality={100}
+                            quality={90}
                         />
                     </Carousel.Item>
                 </Carousel>
