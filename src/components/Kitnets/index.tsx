@@ -12,7 +12,7 @@ import loft from '../../assets/imagens-kitnets/loft_casa/principal_4.jpg'
 export const Kitnets = () => {
     return (
         <KitnetsContainer>
-            <h3 id='kitnets'>NOSSOS KITNETS</h3>
+            <h3 id='kitnets'>NOSSAS KITNETS</h3>
             <hr />
 
             <span> 

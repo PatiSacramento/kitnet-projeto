@@ -25,7 +25,6 @@ export default function Detalhes() {
             <CarouselContainer>
                 <span>
                     <h1>KITNET</h1>
-                    <h2>Descrição: </h2>
                     <p>Kitnet ensolarada e ventilada. Mobiliada com:</p>
                     <ul>
                         <li>Cama</li>
@@ -46,8 +45,9 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_1}
                             alt="First slide"
-                            width={280}
-                            height={500}
+                            width={500}
+                            height={600}
+                            quality={100}
                         />
                     </Carousel.Item>
                     <Carousel.Item>
@@ -55,8 +55,9 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_2}
                             alt="First slide"
-                            width={280}
-                            height={500}
+                            width={500}
+                            height={600}
+                            quality={100}
                         />
                     </Carousel.Item>
                     <Carousel.Item>
@@ -64,8 +65,9 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_3}
                             alt="Second slide"
-                            width={280}
-                            height={500}
+                            width={500}
+                            height={600}
+                            quality={100}
                         />
 
                     </Carousel.Item>
@@ -74,8 +76,9 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_4}
                             alt="Third slide"
-                            width={280}
-                            height={500}
+                            width={500}
+                            height={600}
+                            quality={100}
                         />
                     </Carousel.Item>
                     <Carousel.Item>
@@ -83,8 +86,9 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_5}
                             alt="Fourth slide"
-                            width={280}
-                            height={500}
+                            width={500}
+                            height={600}
+                            quality={100}
                         />
                     </Carousel.Item>
                     <Carousel.Item>
@@ -92,8 +96,9 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_6}
                             alt="Fifth slide"
-                            width={280}
-                            height={500}
+                            width={500}
+                            height={600}
+                            quality={100}
                         />
                     </Carousel.Item>
                     <Carousel.Item>
@@ -101,8 +106,9 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_ac_2}
                             alt="Fifth slide"
-                            width={280}
-                            height={500}
+                            width={500}
+                            height={600}
+                            quality={100}
                         />
                         <Carousel.Caption>
                             <h3>ÁREA COMUM</h3>
@@ -113,8 +119,9 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_ac_3}
                             alt="Fifth slide"
-                            width={280}
-                            height={500}
+                            width={500}
+                            height={600}
+                            quality={100}
                         />
                     </Carousel.Item>
                     <Carousel.Item>
@@ -122,8 +129,9 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_ac_4}
                             alt="Fifth slide"
-                            width={280}
-                            height={500}
+                            width={500}
+                            height={600}
+                            quality={100}
                         />
                     </Carousel.Item>
                     <Carousel.Item>
@@ -131,8 +139,9 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_ac_5}
                             alt="Fifth slide"
-                            width={280}
-                            height={500}
+                            width={500}
+                            height={600}
+                            quality={100}
                         />
                     </Carousel.Item>
                     <Carousel.Item>
@@ -140,8 +149,9 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_ac_6}
                             alt="Fifth slide"
-                            width={280}
-                            height={500}
+                            width={500}
+                            height={600}
+                            quality={100}
                         />
                     </Carousel.Item>
                     <Carousel.Item>
@@ -149,8 +159,9 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_ac_7}
                             alt="Fifth slide"
-                            width={280}
-                            height={500}
+                            width={500}
+                            height={600}
+                            quality={100}
                         />
                     </Carousel.Item>
                 </Carousel>

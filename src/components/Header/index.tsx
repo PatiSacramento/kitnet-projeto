@@ -30,7 +30,7 @@ export const Header = () => {
                     : 
 
                     <MediaQuery minWidth={769}>
-                        <LinksMenu href="/#kitnets">NOSSOS KITNETS</LinksMenu>
+                        <LinksMenu href="/#kitnets">NOSSAS KITNETS</LinksMenu>
                         <LinksMenu href="/#regiao">A REGIÃO</LinksMenu>
                         <LinksMenu href="/#sobre">SOBRE NÓS</LinksMenu>
                                 

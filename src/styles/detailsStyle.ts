@@ -7,6 +7,7 @@ export const CarouselContainer = styled.div`
     justify-content: space-evenly;
 
     padding: 0.75rem 0.5rem;
+
     
     span {
         display: flex;
@@ -32,6 +33,7 @@ export const CarouselContainer = styled.div`
         div {
             max-width: 35rem;
             justify-content: center;
+
         }
     }
 

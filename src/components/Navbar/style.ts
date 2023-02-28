@@ -30,12 +30,6 @@ export const LinksContainer = styled.span`
     right: 0;
     width: 10rem;
 
- /*    span {
-       position: ;
-       top: 0;
-       right: 0;
-
-
-    } */
+    z-index: 1;
 `
 
