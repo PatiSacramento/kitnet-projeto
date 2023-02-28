@@ -9,6 +9,10 @@ export const HeaderContainer = styled.header`
     align-items: center;
     justify-content: space-between;
 
+   /*  @media (max-width: 768) {
+        justify-content: space-evenly;   
+        //padding: 0;
+    } */
     
     a {
         text-decoration: none;
@@ -33,6 +37,10 @@ export const HeaderContainer = styled.header`
         padding: 2rem;
         display: flex;
         gap: 2rem;
+
+        .menu {
+            
+        }
         
     }
 `

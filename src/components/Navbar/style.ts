@@ -1,23 +1,41 @@
 import styled from "styled-components";
 
-export const NavbarContainer = styled.div` 
-    width: 90rem;
-    height: 11rem;
-    background-color: #3D3D3D;
-    padding: 2rem;
-    display: flex;
-    align-items: center;
-    //justify-content: space-evenly;
+export const LinksMenu = styled.a` 
+    text-decoration: none;
+    color: #84B026;
 
-    a { 
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
-        color: #84B026;
-        font-size: 2rem;
-    }
-
-    a:hover {
+    :hover {
         color: #6b8c24;
     }
 
+    a {
+        text-decoration: none;
+        color: #84B026;
+
+        :hover {
+            color: #6b8c24;
+        }
+    }
+ 
 `
+
+export const LinksContainer = styled.span`
+    flex-flow: column nowrap;
+    background-color: #3D3D3D;
+    height: 100vh;
+    //margin-right: 0;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10rem;
+
+ /*    span {
+       position: ;
+       top: 0;
+       right: 0;
+
+
+    } */
+`
+
