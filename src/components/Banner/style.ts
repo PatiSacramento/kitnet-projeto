@@ -9,9 +9,4 @@ export const BannerContainer = styled.div`
     background-size: cover;
     background-repeat: no-repeat;
 
-    h2 {
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
-        color: #173540;
-    }
 `

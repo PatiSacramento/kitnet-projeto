@@ -9,6 +9,14 @@ export const RegiaoContainer = styled.div`
 
     margin: 3rem 5rem;
 
+    @media (max-width: 768px) {
+        margin-left: 1.5rem;
+    }
+
+    @media (min-width: 769px) and (max-width: 1024px) {
+        margin-left: 2rem;
+    }
+
     h3 {
         font-family: 'Roboto', sans-serif;
         font-weight: bold;

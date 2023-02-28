@@ -9,10 +9,6 @@ export const HeaderContainer = styled.header`
     align-items: center;
     justify-content: space-between;
 
-   /*  @media (max-width: 768) {
-        justify-content: space-evenly;   
-        //padding: 0;
-    } */
     
     a {
         text-decoration: none;
@@ -36,11 +32,7 @@ export const HeaderContainer = styled.header`
 
         padding: 2rem;
         display: flex;
-        gap: 2rem;
-
-        .menu {
-            
-        }
+        gap: 1rem;
         
     }
 `
@@ -48,6 +40,7 @@ export const HeaderContainer = styled.header`
 export const LinksMenu = styled.a` 
     text-decoration: none;
     color: #84B026;
+    width: 25%;
 
     :hover {
         color: #6b8c24;

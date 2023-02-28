@@ -22,7 +22,7 @@ export const Header = () => {
             </h1>
             <span>
                 <MediaQuery maxWidth={768}>
-                  <List size={30} onClick={openMenu} className="menu"/>  
+                  <List size={30} onClick={openMenu}/>  
                 </MediaQuery>
                   {openSideMenu ? 
                     <Navbar isOpen={openSideMenu} openMenu={setOpenSideMenu}/> 
