@@ -12,7 +12,7 @@ import villaVerdePizzas from '../../assets/regiao/villa-verde-pizzas.jpg';
 import kadaloraPizzaria from '../../assets/regiao/kadalora-pizzaria.jpg';
 import frutariaJardimRizzo from '../../assets/regiao/frutaria-jardim-rizzo.jpg';
 import academiaSmartFitCorifeu from '../../assets/regiao/smart-fit-corifeu.jpg';
-import portariaUsp from '../../assets/regiao/entrada_pedestres_usp.jpg';
+import portariaUsp from '../../assets/regiao/usp-logo-azul.jpg';
 
 export const Regiao = () => {
     return(
