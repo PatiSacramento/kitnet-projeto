@@ -6,15 +6,23 @@ export const FooterContainer = styled.footer`
     height: 10rem;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
-    padding-left: 3rem;
+    padding: 2rem;
 
     background-color: #161F30;
 
-    color: #9dd91f;
+    color: #84B026;
+
 
     h4 {
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
     }
+
+    span {
+        display: flex;
+        gap: 2rem;
+    }
+
 `
