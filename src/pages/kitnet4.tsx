@@ -10,6 +10,15 @@ import img_6 from "../assets/imagens-kitnets/loft_casa/img_6.jpg";
 import img_7 from "../assets/imagens-kitnets/loft_casa/img_7.jpg";
 import img_8 from "../assets/imagens-kitnets/loft_casa/img_8.jpg";
 import img_9 from "../assets/imagens-kitnets/loft_casa/img_9.jpg";
+import img_10 from "../assets/imagens-kitnets/loft_casa/img_10.jpeg";
+import img_11 from "../assets/imagens-kitnets/loft_casa/img_11.jpeg";
+import img_12 from "../assets/imagens-kitnets/loft_casa/img_12.jpeg";
+import img_13 from "../assets/imagens-kitnets/loft_casa/img_13.jpeg";
+import img_14 from "../assets/imagens-kitnets/loft_casa/img_14.jpeg";
+import img_15 from "../assets/imagens-kitnets/loft_casa/img_15.jpeg";
+import img_16 from "../assets/imagens-kitnets/loft_casa/img_16.jpeg";
+import img_17 from "../assets/imagens-kitnets/loft_casa/img_17.jpeg";
+import img_18 from "../assets/imagens-kitnets/loft_casa/img_17.jpeg";
 
 
 import { CarouselContainer } from "@/styles/detailsStyle";
@@ -120,6 +129,96 @@ export default function Detalhes() {
                         <Image
                             className="d-block w-100"
                             src={img_9}
+                            alt="Fifth slide"
+                            width={500}
+                            height={600}
+                            quality={90}
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Image
+                            className="d-block w-100"
+                            src={img_10}
+                            alt="Fifth slide"
+                            width={500}
+                            height={600}
+                            quality={90}
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Image
+                            className="d-block w-100"
+                            src={img_11}
+                            alt="Fifth slide"
+                            width={500}
+                            height={600}
+                            quality={90}
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Image
+                            className="d-block w-100"
+                            src={img_12}
+                            alt="Fifth slide"
+                            width={500}
+                            height={600}
+                            quality={90}
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Image
+                            className="d-block w-100"
+                            src={img_13}
+                            alt="Fifth slide"
+                            width={500}
+                            height={600}
+                            quality={90}
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Image
+                            className="d-block w-100"
+                            src={img_14}
+                            alt="Fifth slide"
+                            width={500}
+                            height={600}
+                            quality={90}
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Image
+                            className="d-block w-100"
+                            src={img_15}
+                            alt="Fifth slide"
+                            width={500}
+                            height={600}
+                            quality={90}
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Image
+                            className="d-block w-100"
+                            src={img_16}
+                            alt="Fifth slide"
+                            width={500}
+                            height={600}
+                            quality={90}
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Image
+                            className="d-block w-100"
+                            src={img_17}
+                            alt="Fifth slide"
+                            width={500}
+                            height={600}
+                            quality={90}
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Image
+                            className="d-block w-100"
+                            src={img_18}
                             alt="Fifth slide"
                             width={500}
                             height={600}
