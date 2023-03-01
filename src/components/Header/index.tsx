@@ -17,7 +17,7 @@ export const Header = () => {
         <HeaderContainer> 
             <h1>
                 <Link href="/">
-                    KITNETS DO ELIO
+                    KITUSP BUTANTÃ
                 </Link>
             </h1>
             <span>
