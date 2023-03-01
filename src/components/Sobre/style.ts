@@ -28,4 +28,9 @@ export const SobreContainer = styled.div`
         margin-bottom: 2rem;
     }
 
+    p {
+        font-size: 1.5rem;
+        color: #173540;
+    }
+
 `
