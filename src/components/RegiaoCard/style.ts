@@ -6,7 +6,6 @@ export const RegiaoCardContainer = styled.div`
 
     border-radius: 0.5rem;
     
-    //margin: 2rem;
     cursor: pointer;
 
     img {
@@ -29,6 +28,7 @@ export const InfosContainer = styled.div`
 
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
+
     
 
     p {

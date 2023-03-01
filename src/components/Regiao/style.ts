@@ -32,6 +32,5 @@ export const RegiaoContainer = styled.div`
         display: flex; 
         gap: 2rem; 
         overflow-x: scroll;
-        //height: 100%;
     }
 `
