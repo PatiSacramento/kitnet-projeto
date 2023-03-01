@@ -34,7 +34,7 @@ export default function Detalhes() {
                         <li>Geladeira</li>
                         <li>Microondas</li>
                     </ul>
-                    <p> A partir de R$1.250,00 com todas as contas inclusas.</p>
+                    <p> A partir de R$1.250,00. </p>
                     <p> Rua Abadia dos Dourados, 440 - Vila Indiana</p>
 
                 </span>
