@@ -66,7 +66,12 @@ export const ContactButton = styled.button`
 
     border-radius: 0.5rem;
 
+    margin-top:1rem;
+
     height: 2rem;
+
+    color:  #173540;
+    font-weight: bold;
 
     a {
         text-decoration: none;

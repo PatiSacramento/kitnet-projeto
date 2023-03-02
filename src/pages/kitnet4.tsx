@@ -22,8 +22,16 @@ import img_18 from "../assets/imagens-kitnets/loft_casa/img_17.jpeg";
 
 
 import { CarouselContainer, ContactButton } from "@/styles/detailsStyle";
+import { ModalContato } from "@/components/Modal";
+import { useState } from "react";
 
 export default function Detalhes() {
+    const [isModalOpen, setIsModalOpen] = useState(false)
+
+    const openModal = () => {
+        setIsModalOpen(!isModalOpen);
+    }
+
     return (
         <>
             <Header />
@@ -41,11 +49,11 @@ export default function Detalhes() {
                     <p> A partir de R$1.300,00.</p>
                     <p> Rua Corinto, 32 - Vila Indiana</p>
 
-                    <ContactButton>
-                        <a href="https://api.whatsapp.com/send?phone=5531999769422&text=Olá!%20Tenho%20interesse%20na%20kitnet." target="_blank" rel="noreferrer">
-                            ENTRE EM CONTATO PELO WHATSAPP
-                        </a>
-                    </ContactButton>
+                    {isModalOpen ? 
+                        <ModalContato openModal={openModal} isModalOpen={isModalOpen} kitnet={"Rua Corinto"}/>
+                            : 
+                        <ContactButton onClick={openModal}>ENTRE EM CONTATO</ContactButton>
+                    }
 
                 </span>
                 
