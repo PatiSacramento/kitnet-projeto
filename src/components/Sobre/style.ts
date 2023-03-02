@@ -29,7 +29,7 @@ export const SobreContainer = styled.div`
     }
 
     p {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         color: #173540;
     }
 
