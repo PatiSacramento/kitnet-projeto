@@ -28,7 +28,7 @@ export const LinksContainer = styled.span`
     position: fixed;
     top: 0;
     right: 0;
-    width: 10rem;
+    width: 8rem;
 
     z-index: 1;
 `

@@ -30,7 +30,7 @@ export const HeaderContainer = styled.header`
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
 
-        padding: 2rem;
+        padding: 0.5rem;
         display: flex;
         gap: 1rem;
         
