@@ -4,7 +4,7 @@ export const HeaderContainer = styled.header`
     width: 100%;
     height: 11rem;
     background-color: #3D3D3D;
-    padding: 2rem;
+    padding: 0 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,6 +29,7 @@ export const HeaderContainer = styled.header`
         color: #84B026;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
+        font-size: 1.3rem;
 
         padding: 0.5rem;
         display: flex;

@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const LinksMenu = styled.a` 
     text-decoration: none;
+    font-size: 1rem;
+    padding-left: 0.5rem;
     color: #84B026;
 
     :hover {
@@ -21,15 +23,20 @@ export const LinksMenu = styled.a`
 
 export const LinksContainer = styled.span`
     flex-flow: column nowrap;
+    margin: 0 auto;
     background-color: #3D3D3D;
     height: 100vh;
-    //margin-right: 0;
+    width: 8rem;
 
     position: fixed;
     top: 0;
     right: 0;
-    width: 8rem;
+
 
     z-index: 1;
+
+    span {
+        align-self: center;
+    }
 `
 
