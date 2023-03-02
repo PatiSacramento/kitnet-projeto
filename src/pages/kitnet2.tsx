@@ -15,7 +15,7 @@ import img_ac_5 from "../assets/imagens-kitnets/area_comum/img_5.jpg";
 import img_ac_6 from "../assets/imagens-kitnets/area_comum/img_6.jpg";
 import img_ac_7 from "../assets/imagens-kitnets/area_comum/img_7.jpg";
 
-import { CarouselContainer } from "@/styles/detailsStyle";
+import { CarouselContainer, ContactButton } from "@/styles/detailsStyle";
 
 export default function Detalhes() {
     return (
@@ -35,6 +35,12 @@ export default function Detalhes() {
                     </ul>
                     <p> A partir de R$1.250,00.</p>
                     <p> Rua Abadia dos Dourados, 440 - Vila Indiana</p>
+
+                    <ContactButton>
+                        <a href="https://api.whatsapp.com/send?phone=5531999769422&text=Olá!%20Tenho%20interesse%20na%20kitnet." target="_blank" rel="noreferrer">
+                            ENTRE EM CONTATO PELO WHATSAPP
+                        </a>
+                    </ContactButton>
 
                 </span>
 

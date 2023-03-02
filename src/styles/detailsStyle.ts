@@ -59,3 +59,25 @@ export const CarouselContainer = styled.div`
         }
     }
 `
+
+export const ContactButton = styled.button` 
+    background-color: #84B026;
+    border: none;
+
+    border-radius: 0.5rem;
+
+    height: 2rem;
+
+    a {
+        text-decoration: none;
+        color:  #173540;
+        font-weight: bold;
+
+        padding: 0.5rem;
+
+        :hover {
+            color: #205264;
+        }
+    }
+
+`

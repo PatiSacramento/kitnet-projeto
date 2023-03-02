@@ -17,7 +17,7 @@ export const Footer = () => {
             </span>
             <span className="whatsapp">
                 <p>Whatsapp: </p>
-                <a href="https://api.whatsapp.com/send?phone=5531988769422&text=uma%20mensagem%20qualquer" target="_blank" rel="noreferrer">(11) 97362-3344</a>
+                <a href="https://api.whatsapp.com/send?phone=5531999769422&text=Olá!%20Tenho%20interesse%20na%20kitnet." target="_blank" rel="noreferrer">(11) 97362-3344</a>
             </span>
 
             
