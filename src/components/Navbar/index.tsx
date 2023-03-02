@@ -7,7 +7,7 @@ export const Navbar = (props : { isOpen : boolean, openMenu : any}) => {
     
       <LinksContainer>
         <span>
-          <X size={32} weight="fill" onClick={() => props.openMenu(!props.isOpen)}/>
+          <X size={32} weight="fill" onClick={props.openMenu}/>
         </span>
         
         <LinksMenu href="/#kitnets">NOSSAS KITNETS</LinksMenu>
