@@ -25,4 +25,8 @@ export const FooterContainer = styled.footer`
         gap: 2rem;
     }
 
+    .whatsapp {
+      gap: 1rem;
+    }
+
 `

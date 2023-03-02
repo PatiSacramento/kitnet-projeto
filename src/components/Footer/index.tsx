@@ -10,9 +10,14 @@ export const Footer = () => {
             <h4>TELEFONES PARA CONTATO: </h4>
 
             <span>
-                <a href="tel:944531303">94453-1303</a>
+                <a href="tel:+5511944531303">(11) 94453-1303</a>
                 <p>/</p>
-                <a href="tel:973623344">97362-3344</a>
+                <a href="tel:+5511973623344">(11) 97362-3344</a>
+                
+            </span>
+            <span className="whatsapp">
+                <p>Whatsapp: </p>
+                <a href="https://api.whatsapp.com/send?phone=5531988769422&text=uma%20mensagem%20qualquer" target="_blank" rel="noreferrer">(11) 97362-3344</a>
             </span>
 
             
