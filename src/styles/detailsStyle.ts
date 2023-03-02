@@ -1,18 +1,19 @@
+import Carousel from 'react-bootstrap/Carousel';
 import styled from "styled-components";
 
-export const CarouselContainer = styled.div` 
+export const DetailsContainer = styled.div` 
     width: 80rem;
 
     display: flex;
     justify-content: space-evenly;
 
     padding: 0.75rem 0.5rem;
-
     
     span {
         display: flex;
         flex-direction: column;
         margin: 1rem;
+        margin-left: 2rem;;
         font-family: 'Roboto', sans-serif;
         color: #173540;
 
@@ -32,8 +33,7 @@ export const CarouselContainer = styled.div`
 
         div {
             max-width: 35rem;
-            justify-content: center;
-
+            margin: 0 auto;
         }
     }
 
@@ -46,6 +46,7 @@ export const CarouselContainer = styled.div`
 
         div {
             max-width: 40rem;
+            margin: 0 auto;
         }
     }
 
@@ -56,8 +57,44 @@ export const CarouselContainer = styled.div`
 
         div {
             max-width: 60rem;
+            margin: 0 auto;
         }
     }
+`
+
+export const CarouselContainer = styled(Carousel)`
+    max-width: 40rem;
+
+    .carousel-item {
+
+       img {
+            width: auto;
+            max-height: 70vh;
+            object-fit: cover;
+        } 
+
+        @media (max-width: 768px) {
+            margin: 0 auto;
+
+            max-width: auto;
+
+        }
+
+        @media (max-width: 1440px) {
+            margin: 0 auto;
+
+            max-width: auto;
+
+        }
+        @media (min-width: 1440px) {
+            margin: 0 auto;
+
+            max-width: auto;
+
+        }
+
+    }
+    
 `
 
 export const ContactButton = styled.button` 

@@ -21,7 +21,7 @@ import img_17 from "../assets/imagens-kitnets/loft_casa/img_17.jpeg";
 import img_18 from "../assets/imagens-kitnets/loft_casa/img_17.jpeg";
 
 
-import { CarouselContainer, ContactButton } from "@/styles/detailsStyle";
+import { CarouselContainer, ContactButton, DetailsContainer } from "@/styles/detailsStyle";
 import { ModalContato } from "@/components/Modal";
 import { useState } from "react";
 
@@ -35,7 +35,7 @@ export default function Detalhes() {
     return (
         <>
             <Header />
-            <CarouselContainer>
+            <DetailsContainer>
                 <span> 
                     <h1>LOFT</h1>
                     <p>Loft com banheiro privativo. Mobiliado com:</p>
@@ -57,14 +57,12 @@ export default function Detalhes() {
 
                 </span>
                 
-                <Carousel slide={false}>
+                <CarouselContainer slide={false}>
                     <Carousel.Item>
                         <Image
                             className="d-block w-100"
                             src={img_1}
                             alt="First slide"
-                            width={500}
-                            height={600}
                             quality={90}
                         />
                     </Carousel.Item>
@@ -73,8 +71,6 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_2}
                             alt="First slide"
-                            width={500}
-                            height={600}
                             quality={90}
                         />
                     </Carousel.Item>
@@ -83,8 +79,6 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_3}
                             alt="Second slide"
-                            width={500}
-                            height={600}
                             quality={90}
                         />
 
@@ -94,8 +88,6 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_4}
                             alt="Third slide"
-                            width={500}
-                            height={600}
                             quality={90}
                         />
                     </Carousel.Item>
@@ -104,8 +96,6 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_5}
                             alt="Fourth slide"
-                            width={500}
-                            height={600}
                             quality={90}
                         />
                     </Carousel.Item>
@@ -114,8 +104,6 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_6}
                             alt="Fifth slide"
-                            width={500}
-                            height={600}
                             quality={90}
                         />
                     </Carousel.Item>
@@ -124,8 +112,6 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_7}
                             alt="Fifth slide"
-                            width={500}
-                            height={600}
                             quality={90}
                         />
                     </Carousel.Item>
@@ -134,8 +120,6 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_8}
                             alt="Fifth slide"
-                            width={500}
-                            height={600}
                             quality={90}
                         />
                     </Carousel.Item>
@@ -144,8 +128,6 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_9}
                             alt="Fifth slide"
-                            width={500}
-                            height={600}
                             quality={90}
                         />
                     </Carousel.Item>
@@ -154,8 +136,6 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_10}
                             alt="Fifth slide"
-                            width={500}
-                            height={600}
                             quality={90}
                         />
                     </Carousel.Item>
@@ -164,8 +144,6 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_11}
                             alt="Fifth slide"
-                            width={500}
-                            height={600}
                             quality={90}
                         />
                     </Carousel.Item>
@@ -174,8 +152,6 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_12}
                             alt="Fifth slide"
-                            width={500}
-                            height={600}
                             quality={90}
                         />
                     </Carousel.Item>
@@ -184,8 +160,6 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_13}
                             alt="Fifth slide"
-                            width={500}
-                            height={600}
                             quality={90}
                         />
                     </Carousel.Item>
@@ -194,8 +168,6 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_14}
                             alt="Fifth slide"
-                            width={500}
-                            height={600}
                             quality={90}
                         />
                     </Carousel.Item>
@@ -204,8 +176,6 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_15}
                             alt="Fifth slide"
-                            width={500}
-                            height={600}
                             quality={90}
                         />
                     </Carousel.Item>
@@ -214,8 +184,6 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_16}
                             alt="Fifth slide"
-                            width={500}
-                            height={600}
                             quality={90}
                         />
                     </Carousel.Item>
@@ -224,8 +192,6 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_17}
                             alt="Fifth slide"
-                            width={500}
-                            height={600}
                             quality={90}
                         />
                     </Carousel.Item>
@@ -234,14 +200,12 @@ export default function Detalhes() {
                             className="d-block w-100"
                             src={img_18}
                             alt="Fifth slide"
-                            width={500}
-                            height={600}
                             quality={90}
                         />
                     </Carousel.Item>
-                </Carousel>
+                </CarouselContainer>
 
-            </CarouselContainer>
+            </DetailsContainer>
         </>
 
     )
