@@ -11,6 +11,8 @@ export default class MyApp extends App {
           <title>KITUSP - Kitnets no Butantã</title>
           <meta name="description" content="Kitnets mobiliadas e moradias estudantis na região do Butantã, próxima à USP." />
           <meta name="robots" content='index, follow' />
+          <link rel="canonical" href="https://kitusp.com.br" />
+
         </Head>
         <Component {...pageProps} />
       </>
