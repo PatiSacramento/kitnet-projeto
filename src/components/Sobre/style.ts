@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const SobreContainer = styled.div` 
     width: 90%;
-    height: 15rem;
+    height: 10rem;
 
     background-color: white;
 

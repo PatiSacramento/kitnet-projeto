@@ -1,6 +1,12 @@
 
-import type { AppProps } from 'next/app'
 import 'bootstrap/dist/css/bootstrap.css';
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+import App from 'next/app'
+  
+export default class MyApp extends App {
+  render() {
+    const { Component, pageProps } = this.props
+    return <Component {...pageProps} />
+  }
 }
+
+
