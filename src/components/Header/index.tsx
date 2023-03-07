@@ -15,7 +15,7 @@ export const Header = () => {
     useEffect(() => {
         if (isDesktopOrLaptop) {
             setScreenSize("bg")
-        } else if (isTabletOrMobile){
+        } else if (isTabletOrMobile) {
             setScreenSize("sm")
         }
 
@@ -28,24 +28,25 @@ export const Header = () => {
 
 
     return (
-        <HeaderContainer> 
+
+        <HeaderContainer>
             <h1>
                 <Link href="/">
                     KITUSP BUTANTÃ
                 </Link>
             </h1>
             <span>
-                {screenSize === "sm" && <List size={30} onClick={openMenu}/> }
-                {screenSize === "sm" && openSideMenu && <Navbar isOpen={openSideMenu} openMenu={openMenu}/> }
-                {screenSize === "bg" &&  <> 
+                {screenSize === "sm" && <List size={30} onClick={openMenu} />}
+                {screenSize === "sm" && openSideMenu && <Navbar isOpen={openSideMenu} openMenu={openMenu} />}
+                {screenSize === "bg" && <>
                     <LinksMenu href="/#kitnets">NOSSAS KITNETS</LinksMenu>
                     <LinksMenu href="/#regiao">A REGIÃO</LinksMenu>
                     <LinksMenu href="/#sobre">SOBRE NÓS</LinksMenu>
                     <LinksMenu href="https://api.whatsapp.com/send?phone=5511944531303&text=Olá!%20Tenho%20interesse%20nas%20kitnets." target="_blank" rel="noreferrer">CONTATO</LinksMenu>
-                </> }
-            </span>                
-
-
+                </>}
+            </span>
         </HeaderContainer >
+
+
     )
 }
