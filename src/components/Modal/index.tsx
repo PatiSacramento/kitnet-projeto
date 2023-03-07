@@ -27,7 +27,7 @@ export const ModalContato = (props: { isModalOpen: boolean, openModal: any, kitn
                     </Modal.Body>
 
                     <ContactButton>
-                        <a href={`https://api.whatsapp.com/send?phone=5531999769422&text=Olá!%20Meu%20nome%20é%20${userName}.%20Tenho%20interesse%20na%20kitnet%20da%20${props.kitnet}.`} target="_blank" rel="noreferrer">
+                        <a href={`https://api.whatsapp.com/send?phone=5511944531303&text=Olá!%20Meu%20nome%20é%20${userName}.%20Tenho%20interesse%20na%20kitnet%20da%20${props.kitnet}.`} target="_blank" rel="noreferrer">
                             ENVIAR PELO WHATSAPP
                         </a>
                     </ContactButton>
