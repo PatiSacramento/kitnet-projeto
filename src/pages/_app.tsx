@@ -9,6 +9,7 @@ export default class MyApp extends App {
         return <>
         <Head>
           <title>KITUSP</title>
+          <meta name='description' content="Kitnets mobiliadas e moradias estudantis na região do Butantã, próxima à USP." />
         </Head>
         <Component {...pageProps} />
       </>
