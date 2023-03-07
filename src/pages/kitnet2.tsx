@@ -31,7 +31,7 @@ export default function Detalhes() {
             <DetailsContainer>
                 <span>
                     <h1>KITNET</h1>
-                    <p>Kitnet ensolarada e ventilada. Mobiliada com:</p>
+                    <p>Kitnet ensolarada e ventilada próxima à USP. Mobiliada com:</p>
                     <ul>
                         <li>Cama</li>
                         <li>Colchão</li>

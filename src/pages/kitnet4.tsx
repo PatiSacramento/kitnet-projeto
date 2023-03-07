@@ -30,7 +30,7 @@ export default function Detalhes() {
             <DetailsContainer>
                 <span> 
                     <h1>LOFT</h1>
-                    <p>Loft com banheiro privativo. Mobiliado com:</p>
+                    <p>Loft com banheiro privativo próximo à USP. Mobiliado com:</p>
                     <ul>
                         <li>Cama</li>
                         <li>Colchão</li>

@@ -8,8 +8,9 @@ export default class MyApp extends App {
     const { Component, pageProps } = this.props
         return <>
         <Head>
-          <title>KITUSP</title>
-          <meta name='description' content="Kitnets mobiliadas e moradias estudantis na região do Butantã, próxima à USP." />
+          <title>KITUSP - Kitnets no Butantã</title>
+          <meta name="description" content="Kitnets mobiliadas e moradias estudantis na região do Butantã, próxima à USP." />
+          <meta name="robots" content='index, follow' />
         </Head>
         <Component {...pageProps} />
       </>
