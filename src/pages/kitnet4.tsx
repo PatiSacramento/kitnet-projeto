@@ -2,14 +2,6 @@ import { Header } from "@/components/Header";
 import Carousel from 'react-bootstrap/Carousel'
 import Image from "next/image";
 import img_1 from "../assets/imagens-kitnets/loft_casa/principal_4.jpg";
-import img_2 from "../assets/imagens-kitnets/loft_casa/img_2.jpg";
-import img_3 from "../assets/imagens-kitnets/loft_casa/img_3.jpg";
-import img_4 from "../assets/imagens-kitnets/loft_casa/img_4.jpg";
-import img_5 from "../assets/imagens-kitnets/loft_casa/img_5.jpg";
-import img_6 from "../assets/imagens-kitnets/loft_casa/img_6.jpg";
-import img_7 from "../assets/imagens-kitnets/loft_casa/img_7.jpg";
-import img_8 from "../assets/imagens-kitnets/loft_casa/img_8.jpg";
-import img_9 from "../assets/imagens-kitnets/loft_casa/img_9.jpg";
 import img_10 from "../assets/imagens-kitnets/loft_casa/img_10.jpeg";
 import img_11 from "../assets/imagens-kitnets/loft_casa/img_11.jpeg";
 import img_12 from "../assets/imagens-kitnets/loft_casa/img_12.jpeg";
@@ -66,71 +58,7 @@ export default function Detalhes() {
                             quality={90}
                         />
                     </Carousel.Item>
-                    <Carousel.Item>
-                        <Image
-                            className="d-block w-100"
-                            src={img_2}
-                            alt="First slide"
-                            quality={90}
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image
-                            className="d-block w-100"
-                            src={img_3}
-                            alt="Second slide"
-                            quality={90}
-                        />
-
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image
-                            className="d-block w-100"
-                            src={img_4}
-                            alt="Third slide"
-                            quality={90}
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image
-                            className="d-block w-100"
-                            src={img_5}
-                            alt="Fourth slide"
-                            quality={90}
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image
-                            className="d-block w-100"
-                            src={img_6}
-                            alt="Fifth slide"
-                            quality={90}
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image
-                            className="d-block w-100"
-                            src={img_7}
-                            alt="Fifth slide"
-                            quality={90}
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image
-                            className="d-block w-100"
-                            src={img_8}
-                            alt="Fifth slide"
-                            quality={90}
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image
-                            className="d-block w-100"
-                            src={img_9}
-                            alt="Fifth slide"
-                            quality={90}
-                        />
-                    </Carousel.Item>
+              
                     <Carousel.Item>
                         <Image
                             className="d-block w-100"
