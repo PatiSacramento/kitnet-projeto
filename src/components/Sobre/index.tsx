@@ -8,7 +8,8 @@ export const Sobre = () => {
             <h3 id='sobre'>SOBRE NÓS</h3>
             <hr />
 
-            <p>Temos como prioridade atender da melhor forma possível os nossos clientes.</p>
+            <p> Nós da KITUSP somos especializados no aluguel de moradias estudantis e kitnets mobiliadas na região do Butantã, próximo à USP. 
+                Nossa prioridade é atender da melhor forma possível os nossos clientes.</p>
         </SobreContainer>
     )
 }

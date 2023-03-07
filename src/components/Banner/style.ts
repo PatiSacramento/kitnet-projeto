@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const BannerContainer = styled.div`
     width: 100%;
-    height: 30rem;
+    height: 28rem;
 
     img {
         width: 100%;
@@ -12,5 +12,29 @@ export const BannerContainer = styled.div`
         object-fit: cover;
 
     }
+
+    @media (max-width: 768px) {
+
+        height: 17rem;
+
+        img {
+            height: 100%;
+        }
+        
+    }
+
+
+
+    @media (min-width: 769px) and (max-width: 1024px) {
+
+        height: 22rem;
+
+        img {
+            height: 100%;
+        }
+           
+        
+    }
+
 
 `
