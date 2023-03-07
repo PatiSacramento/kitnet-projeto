@@ -46,7 +46,7 @@ export default function Detalhes() {
                         <li>Escrivaninha</li>
                         <li>Geladeira</li>
                     </ul>
-                    <p> A partir de R$1.300,00.</p>
+                    <p> A partir de R$1.700,00.</p>
                     <p> Rua Corinto, 32 - Vila Indiana</p>
 
                     {isModalOpen ? 
