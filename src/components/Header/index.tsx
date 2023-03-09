@@ -35,7 +35,7 @@ export const Header = () => {
                     KITUSP BUTANTÃ
                 </Link>
             </h1>
-            <span>
+            <nav>
                 {screenSize === "sm" && <List size={30} onClick={openMenu} />}
                 {screenSize === "sm" && openSideMenu && <Navbar isOpen={openSideMenu} openMenu={openMenu} />}
                 {screenSize === "bg" && <>
@@ -44,7 +44,7 @@ export const Header = () => {
                     <LinksMenu href="/#sobre">SOBRE NÓS</LinksMenu>
                     <LinksMenu href="https://api.whatsapp.com/send?phone=5511944531303&text=Olá!%20Tenho%20interesse%20nas%20kitnets." target="_blank" rel="noreferrer">CONTATO</LinksMenu>
                 </>}
-            </span>
+            </nav>
         </HeaderContainer >
 
 

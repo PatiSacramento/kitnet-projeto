@@ -3,7 +3,7 @@ import HomePage from './homepage'
 import styled from 'styled-components'
 import Head from 'next/head' 
 
-const PageContainer = styled.div`
+const PageContainer = styled.main`
   width: 100vw;
 
 `

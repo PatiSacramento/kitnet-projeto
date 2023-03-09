@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-export const KitnetsContainer = styled.div`
+export const KitnetsContainer = styled.section`
     width: 90%;
     height: 35rem;
 

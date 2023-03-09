@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-export const SobreContainer = styled.div` 
+export const SobreContainer = styled.section` 
     width: 90%;
     height: 10rem;
 

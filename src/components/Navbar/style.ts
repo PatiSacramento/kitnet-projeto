@@ -21,7 +21,7 @@ export const LinksMenu = styled.a`
  
 `
 
-export const LinksContainer = styled.span`
+export const LinksContainer = styled.nav`
     flex-flow: column nowrap;
     margin: 0 auto;
     background-color: #3D3D3D;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-export const RegiaoContainer = styled.div` 
+export const RegiaoContainer = styled.section` 
     width: 90%;
     height: 35rem;
 

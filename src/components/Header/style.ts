@@ -25,7 +25,7 @@ export const HeaderContainer = styled.header`
         color: #84B026;
     }
 
-    span {
+    nav {
         color: #84B026;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;

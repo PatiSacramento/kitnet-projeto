@@ -31,7 +31,7 @@ export default function Detalhes() {
             </Head>
             <Header />
             <DetailsContainer>
-                <span>
+                <article>
                     <h1>KITNET</h1>
                     <p>Kitnet ensolarada e ventilada próxima à USP. Mobiliada com:</p>
                     <ul>
@@ -50,7 +50,7 @@ export default function Detalhes() {
                         :
                         <ContactButton onClick={openModal}>ENTRE EM CONTATO</ContactButton>
                     }
-                </span>
+                </article>
 
                 <CarouselContainer slide={false}>
                     <Carousel.Item>

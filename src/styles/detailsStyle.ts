@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import styled from "styled-components";
 
-export const DetailsContainer = styled.div` 
+export const DetailsContainer = styled.main` 
     width: 80rem;
 
     display: flex;
@@ -9,7 +9,7 @@ export const DetailsContainer = styled.div`
 
     padding: 0.75rem 0.5rem;
     
-    span {
+    article {
         display: flex;
         flex-direction: column;
         margin: 1rem;

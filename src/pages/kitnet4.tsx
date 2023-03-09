@@ -34,7 +34,7 @@ export default function Detalhes() {
             </Head>
             <Header />
             <DetailsContainer>
-                <span>
+                <article>
                     <h1>LOFT</h1>
                     <p>Loft com banheiro privativo próximo à USP. Mobiliado com:</p>
                     <ul>
@@ -53,7 +53,7 @@ export default function Detalhes() {
                         <ContactButton onClick={openModal}>ENTRE EM CONTATO</ContactButton>
                     }
 
-                </span>
+                </article>
 
                 <CarouselContainer slide={false}>
                     <Carousel.Item>
