@@ -16,6 +16,7 @@ import img_18 from "../assets/imagens-kitnets/loft_casa/img_17.jpeg";
 import { CarouselContainer, ContactButton, DetailsContainer } from "@/styles/detailsStyle";
 import { ModalContato } from "@/components/Modal";
 import { useState } from "react";
+import Head from 'next/head'
 
 export default function Detalhes() {
     const [isModalOpen, setIsModalOpen] = useState(false)
@@ -26,9 +27,14 @@ export default function Detalhes() {
 
     return (
         <>
+            <Head>
+                <title>KITUSP - Kitnets no Butantã</title>
+                <meta name="description" content="Kitnets mobiliadas e moradias estudantis na região do Butantã, próxima à USP." />
+                <meta name='keywords' content='kitnet, kitnets, kitnets mobiliadas, kitnet mobiliada, moradia estudantil, moraridas estudantis, USP, Butantã, kitnet Butantã, kitnets butantã, kitnet usp, kitnets usp, moradia usp, moradia butantã' />
+            </Head>
             <Header />
             <DetailsContainer>
-                <span> 
+                <span>
                     <h1>LOFT</h1>
                     <p>Loft com banheiro privativo próximo à USP. Mobiliado com:</p>
                     <ul>
@@ -41,14 +47,14 @@ export default function Detalhes() {
                     <p> A partir de R$1.700,00.</p>
                     <p> Rua Corinto, 32 - Vila Indiana</p>
 
-                    {isModalOpen ? 
-                        <ModalContato openModal={openModal} isModalOpen={isModalOpen} kitnet={"Rua Corinto"}/>
-                            : 
+                    {isModalOpen ?
+                        <ModalContato openModal={openModal} isModalOpen={isModalOpen} kitnet={"Rua Corinto"} />
+                        :
                         <ContactButton onClick={openModal}>ENTRE EM CONTATO</ContactButton>
                     }
 
                 </span>
-                
+
                 <CarouselContainer slide={false}>
                     <Carousel.Item>
                         <Image
@@ -58,7 +64,7 @@ export default function Detalhes() {
                             quality={90}
                         />
                     </Carousel.Item>
-              
+
                     <Carousel.Item>
                         <Image
                             className="d-block w-100"
