@@ -9,9 +9,9 @@ export default class MyApp extends App {
         return <>
         <Head>
           <title>KITUSP - Kitnets no Butantã</title>
-
+          <meta name="language" content="pt-BR" />
           <meta name="description" content="Kitnets mobiliadas e moradias estudantis na região do Butantã, próxima à USP." />
-          <meta name='keywords' content='kitnet, kitnets, kitnets mobiliadas, kitnet mobiliada, moradia estudantil, moraridas estudantis, USP, Butantã, kitnet Butantã, kitnets butantã, kitnet usp, kitnets usp, moradia usp, moradia butantã' />
+          <meta name='keywords' content='kitnet, kitnets, kitnets mobiliadas, kitnet mobiliada, moradia estudantil, moraridas estudantis, USP, Butantã, kitnet Butantã, kitnets butantã, kitnet usp, kitnets usp, moradia usp, moradia butantã, aluguel kitnet, aluguel moradia estudantil, kitnet vila indiana, alugar kitnet vila indiana' />
           <meta name="robots" content='index, follow' />
           <link rel="canonical" href="https://kitusp.com.br" />
 

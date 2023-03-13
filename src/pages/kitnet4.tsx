@@ -16,7 +16,6 @@ import img_18 from "../assets/imagens-kitnets/loft_casa/img_17.jpeg";
 import { CarouselContainer, ContactButton, DetailsContainer } from "@/styles/detailsStyle";
 import { ModalContato } from "@/components/Modal";
 import { useState } from "react";
-import Head from 'next/head'
 
 export default function Detalhes() {
     const [isModalOpen, setIsModalOpen] = useState(false)
@@ -26,17 +25,11 @@ export default function Detalhes() {
     }
 
     return (
-        <>
-            <Head>
-                <title>KITUSP - Kitnets no Butantã</title>
-                <meta name="description" content="Kitnets mobiliadas e moradias estudantis na região do Butantã, próxima à USP." />
-                <meta name='keywords' content='kitnet, kitnets, kitnets mobiliadas, kitnet mobiliada, moradia estudantil, moraridas estudantis, USP, Butantã, kitnet Butantã, kitnets butantã, kitnet usp, kitnets usp, moradia usp, moradia butantã' />
-            </Head>
-            
+        <>            
             <Header />
             <DetailsContainer>
                 <article>
-                    <h1>LOFT</h1>
+                    <h1>LOFT VILA INDIANA</h1>
                     <p>Loft com banheiro privativo próximo à USP. Mobiliado com:</p>
                     <ul>
                         <li>Cama</li>

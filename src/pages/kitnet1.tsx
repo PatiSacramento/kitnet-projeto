@@ -17,7 +17,6 @@ import img_ac_7 from "../assets/imagens-kitnets/area_comum/img_7.jpg";
 import { DetailsContainer, ContactButton, CarouselContainer } from "@/styles/detailsStyle";
 import { useState } from "react";
 import { ModalContato } from "@/components/Modal";
-import Head from 'next/head'
 
 export default function Detalhes() {
     const [isModalOpen, setIsModalOpen] = useState(false)
@@ -30,16 +29,11 @@ export default function Detalhes() {
 
     return (
         <>
-            <Head>
-                <title>KITUSP - Kitnets no Butantã</title>
-                <meta name="description" content="Kitnets mobiliadas e moradias estudantis na região do Butantã, próxima à USP." />
-                <meta name='keywords' content='kitnet, kitnets, kitnets mobiliadas, kitnet mobiliada, moradia estudantil, moraridas estudantis, USP, Butantã, kitnet Butantã, kitnets butantã, kitnet usp, kitnets usp, moradia usp, moradia butantã' />
-            </Head>
             
             <Header />
             <DetailsContainer>
                 <article>
-                    <h1>KITNET</h1>
+                    <h1>KITNET VILA INDIANA</h1>
                     <p>Kitnet ensolarada e ventilada próxima à USP. Mobiliada com:</p>
                     <ul>
                         <li>Cama</li>
