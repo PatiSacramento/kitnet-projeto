@@ -1,6 +1,7 @@
 import styled from "styled-components";
+interface Props extends React.AnchorHTMLAttributes<HTMLAnchorElement> {}
 
-export const LinksMenu = styled.a` 
+export const LinksMenu = styled.a<Props>` 
     text-decoration: none;
     font-size: 1rem;
     padding-left: 0.5rem;

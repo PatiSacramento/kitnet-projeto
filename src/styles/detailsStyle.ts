@@ -96,8 +96,8 @@ export const CarouselContainer = styled(Carousel)`
     }
     
 `
-
-export const ContactButton = styled.button` 
+interface ButtonProps extends React.AnchorHTMLAttributes<HTMLButtonElement> {}
+export const ContactButton = styled.button<ButtonProps>` 
     background-color: #84B026;
     border: none;
 

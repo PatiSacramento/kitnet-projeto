@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-export const KitnetContainer = styled.div`
+interface Props extends React.AnchorHTMLAttributes<HTMLDivElement> {}
+
+export const KitnetContainer = styled.div<Props>`
     width: 18rem;
     height: 25rem;
 

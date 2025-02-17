@@ -37,8 +37,8 @@ export const HeaderContainer = styled.header`
         
     }
 `
-
-export const LinksMenu = styled.a` 
+interface LinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {}
+export const LinksMenu = styled.a<LinkProps>` 
     text-decoration: none;
     color: #84B026;
     width: 25%;

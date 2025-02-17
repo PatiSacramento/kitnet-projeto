@@ -9,8 +9,9 @@ export const ModalDialog = styled(Modal.Dialog)`
     }
    
 `
+interface Props extends React.AnchorHTMLAttributes<HTMLInputElement> {}
 
-export const InputName = styled.input`
+export const InputName = styled.input<Props>`
     border: none;
     border-radius: 0.3rem;
 
