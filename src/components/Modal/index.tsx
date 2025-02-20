@@ -32,7 +32,7 @@ export const ModalContato = (props: {
             target="_blank"
             rel="noreferrer"
           >
-            ENVIAR PELO WHATSAPP
+            Entrar em Contato
           </a>
         </ContactButton>
       </ModalDialog>

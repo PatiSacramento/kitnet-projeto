@@ -1,27 +1,23 @@
-import { KitnetCard } from "../KitnetCard"
-import { KitnetsContainer } from "./style"
-import kit1 from '../../assets/imagens-kitnets/1/principal_1.jpg'
-import kit2 from '../../assets/imagens-kitnets/2/principal_2.jpg'
-import kit3 from '../../assets/imagens-kitnets/3/principal_3.jpg'
-import loft from '../../assets/imagens-kitnets/loft_casa/principal_4.jpg'
-
-
-
-
+import { Card } from "@/components/ui/Card"
+import Image from "next/image"
 
 export const Kitnets = () => {
-    return (
-        <KitnetsContainer>
-            <h3 id='kitnets'>NOSSAS KITNETS</h3>
-            <hr />
-
-            <span> 
-                <KitnetCard imgPrincipal={kit1} id="1" name="Kitnet Abadia dos Dourados"/>
-                <KitnetCard imgPrincipal={kit2} id="2" name="Kitnet Abadia dos Dourados"/>
-                <KitnetCard imgPrincipal={kit3} id="3" name="Kitnet Abadia dos Dourados"/>
-                <KitnetCard imgPrincipal={loft} id="4" name="Loft Corinto"/>
-            </span>
-
-        </KitnetsContainer>
-    )
+  return (
+    <div className="">
+      <h3 className="">Nossas Kitnets</h3>
+      <div className="">
+        {["1", "2", "3", "loft_casa"].map((kit, idx) => (
+          <Card key={idx}>
+            <Image
+              src={`/images/imagens-kitnets/${kit}/main.jpg`}
+              alt=""
+              width={250}
+              height={250}
+            />
+            Test
+          </Card>
+        ))}
+      </div>
+    </div>
+  )
 }
