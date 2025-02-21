@@ -1,68 +1,65 @@
-import Footer from "@/components/ui/Footer"
-import { Navigation } from "@/components/ui/Navbar"
-import type { Metadata } from "next"
-import { ThemeProvider } from "next-themes"
-import { Inter } from "next/font/google"
-import "./globals.css"
-import { siteConfig } from "./siteConfig"
+import Footer from '@/components/ui/Footer';
+import { Navigation } from '@/components/ui/Navbar';
+import type { Metadata } from 'next';
+import { ThemeProvider } from 'next-themes';
+import { Inter } from 'next/font/google';
+import './globals.css';
+import { siteConfig } from './siteConfig';
+import React, { ReactNode } from 'react';
 
 const inter = Inter({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-inter",
-})
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+});
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://yoururl.com"),
+  metadataBase: new URL('https://yoururl.com'),
   title: siteConfig.name,
   description: siteConfig.description,
-  keywords: ["Marketing", "Database", "Software"],
+  keywords: ['Marketing', 'Database', 'Software'],
   authors: [
     {
-      name: "yourname",
-      url: "",
+      name: 'yourname',
+      url: '',
     },
   ],
-  creator: "yourname",
+  creator: 'yourname',
   openGraph: {
-    type: "website",
-    locale: "en_US",
+    type: 'website',
+    locale: 'en_US',
     url: siteConfig.url,
     title: siteConfig.name,
     description: siteConfig.description,
     siteName: siteConfig.name,
   },
   twitter: {
-    card: "summary_large_image",
+    card: 'summary_large_image',
     title: siteConfig.name,
     description: siteConfig.description,
-    creator: "@yourname",
+    creator: '@yourname',
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: '/casa.png',
   },
-}
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: ReactNode;
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body
         className={`${inter.className} mt-12 min-h-screen scroll-auto antialiased selection:bg-indigo-100 selection:text-indigo-700 dark:bg-gray-950`}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          disableTransitionOnChange
-        >
+        <ThemeProvider attribute="class" defaultTheme="system" disableTransitionOnChange>
           <Navigation />
           {children}
           <Footer />
         </ThemeProvider>
       </body>
     </html>
-  )
+  );
 }

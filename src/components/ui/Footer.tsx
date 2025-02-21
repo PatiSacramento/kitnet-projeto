@@ -1,200 +1,106 @@
-import { RiArrowRightUpLine } from "@remixicon/react"
-import Link from "next/link"
+import { RiPhoneLine, RiWhatsappLine } from '@remixicon/react';
+import Link from 'next/link';
 // import { DatabaseLogo } from "../../../public/DatabaseLogo"
-import ThemeSwitch from "../ThemeSwitch"
+import { Button } from '../Button';
+import ThemeSwitch from '../ThemeSwitch';
 
 const navigation = {
-  product: [
-    { name: "Enterprise", href: "#", external: false },
-    { name: "Pricing", href: "/pricing", external: false },
-    { name: "Docs", href: "#", external: false },
-    { name: "Changelog", href: "/changelog", external: false },
+  contato: [
+    { name: '(11) 97362-3344', href: 'tel:+5511973623344', whatsapp: false },
+    {
+      name: '(11) 94453-1303',
+      href: 'https://api.whatsapp.com/send?phone=5511944531303&text=Olá!%20Tenho%20interesse%20nas%20kitnets.',
+      whatsapp: true,
+    },
   ],
-  resources: [
-    { name: "FAQs", href: "/pricing#faq-title", external: false },
-    { name: "GitHub", href: "#", external: true },
-    { name: "Discord", href: "#", external: true },
-    { name: "YouTube", href: "#", external: true },
+  navegacao: [
+    { name: 'Início', href: '#', button: false },
+    { name: 'Nossas Kitnets', href: '/#nossas-kitnets', button: false },
+    { name: 'A Região', href: '/#regiao', button: false },
+    { name: '', href: '', button: true },
   ],
-  company: [
-    { name: "About", href: "/about", external: false },
-    { name: "Careers", href: "#", external: true },
-    { name: "Contact", href: "#", external: false },
-    { name: "Status", href: "#", external: false },
-  ],
-  legal: [
-    { name: "Imprint", href: "#", external: false },
-    { name: "Privacy", href: "#", external: false },
-    { name: "Terms", href: "#", external: false },
-    { name: "DPA", href: "#", external: false },
-  ],
-}
+};
 
 export default function Footer() {
   return (
     <footer id="footer">
-      <div className="mx-auto max-w-6xl px-3 pb-8 pt-16 sm:pt-24 lg:pt-32">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-20">
+      <div className="mx-[8rem] w-[90%] px-4 pb-8 pt-12 sm:pt-24 lg:pt-32">
+        <div className="xl:grid xl:grid-cols-2 xl:gap-20">
           <div className="space-y-8">
             {/* <DatabaseLogo className="w-32 sm:w-40" /> */}
             <p className="text-sm leading-6 text-gray-600 dark:text-gray-400">
-              Redefining the way databases are built and managed. Built in
-              Switzerland, made for the world.
+              Nós da KITUSP somos especializados no aluguel de moradias estudantis e kitnets
+              mobiliadas na região do Butantã, próximo à USP.
+              <br />
+              Nossa prioridade é atender da melhor forma possível os nossos clientes.
             </p>
             <div className="flex space-x-6">
               <ThemeSwitch />
             </div>
             <div></div>
           </div>
-          <div className="mt-16 grid grid-cols-1 gap-14 sm:gap-8 md:grid-cols-2 xl:col-span-2 xl:mt-0">
-            <div className="grid grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-50">
-                  Product
-                </h3>
-                <ul
-                  role="list"
-                  className="mt-6 space-y-4"
-                  aria-label="Quick links Product"
-                >
-                  {navigation.product.map((item) => (
-                    <li key={item.name} className="w-fit">
-                      <Link
-                        className="flex rounded-md text-sm text-gray-500 transition hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-                        href={item.href}
-                        target={item.external ? "_blank" : undefined}
-                        rel={item.external ? "noopener noreferrer" : undefined}
-                      >
-                        <span>{item.name}</span>
-                        {item.external && (
-                          <div className="ml-1 aspect-square size-3 rounded-full bg-gray-100 p-px dark:bg-gray-500/20">
-                            <RiArrowRightUpLine
-                              aria-hidden="true"
-                              className="size-full shrink-0 text-gray-900 dark:text-gray-300"
-                            />
-                          </div>
-                        )}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div>
-                <h3 className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-50">
-                  Resources
-                </h3>
-                <ul
-                  role="list"
-                  className="mt-6 space-y-4"
-                  aria-label="Quick links Resources"
-                >
-                  {navigation.resources.map((item) => (
-                    <li key={item.name} className="w-fit">
-                      <Link
-                        className="flex rounded-md text-sm text-gray-500 transition hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-                        href={item.href}
-                        target={item.external ? "_blank" : undefined}
-                        rel={item.external ? "noopener noreferrer" : undefined}
-                      >
-                        <span>{item.name}</span>
-                        {item.external && (
-                          <div className="ml-0.5 aspect-square size-3 rounded-full bg-gray-100 p-px dark:bg-gray-500/20">
-                            <RiArrowRightUpLine
-                              aria-hidden="true"
-                              className="size-full shrink-0 text-gray-900 dark:text-gray-300"
-                            />
-                          </div>
-                        )}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+
+          <div className="grid grid-cols-2">
+            <div>
+              <h3 className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-50">
+                Contato
+              </h3>
+              <ul role="list" className="mt-6 space-y-4" aria-label="Quick links Product">
+                {navigation.contato.map((item) => (
+                  <li key={item.name} className="w-fit">
+                    <Link
+                      className="flex rounded-md text-sm text-gray-500 transition hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50 gap-2"
+                      href={item.href}
+                      target={item.whatsapp ? '_blank' : undefined}
+                      rel={item.whatsapp ? 'noopener noreferrer' : undefined}
+                    >
+                      {item.whatsapp ? (
+                        <RiWhatsappLine
+                          aria-hidden="true"
+                          size={20}
+                          className="text-green-700 dark:text-green-400"
+                        />
+                      ) : (
+                        <RiPhoneLine
+                          aria-hidden="true"
+                          size={20}
+                          className="text-gray-600 dark:text-gray-600"
+                        />
+                      )}
+                      <span>{item.name}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
-            <div className="grid grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-50">
-                  Company
-                </h3>
-                <ul
-                  role="list"
-                  className="mt-6 space-y-4"
-                  aria-label="Quick links Company"
-                >
-                  {navigation.company.map((item) => (
-                    <li key={item.name} className="w-fit">
-                      <Link
-                        className="flex rounded-md text-sm text-gray-500 transition hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-                        href={item.href}
-                        target={item.external ? "_blank" : undefined}
-                        rel={item.external ? "noopener noreferrer" : undefined}
-                      >
-                        <span>{item.name}</span>
-                        {item.external && (
-                          <div className="ml-1 aspect-square size-3 rounded-full bg-gray-100 p-px dark:bg-gray-500/20">
-                            <RiArrowRightUpLine
-                              aria-hidden="true"
-                              className="size-full shrink-0 text-gray-900 dark:text-gray-300"
-                            />
-                          </div>
-                        )}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div>
-                <h3 className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-50">
-                  Legal
-                </h3>
-                <ul
-                  role="list"
-                  className="mt-6 space-y-4"
-                  aria-label="Quick links Legal"
-                >
-                  {navigation.legal.map((item) => (
-                    <li key={item.name} className="w-fit">
-                      <Link
-                        className="flex rounded-md text-sm text-gray-500 transition hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-                        href={item.href}
-                        target={item.external ? "_blank" : undefined}
-                        rel={item.external ? "noopener noreferrer" : undefined}
-                      >
-                        <span>{item.name}</span>
-                        {item.external && (
-                          <div className="ml-1 aspect-square size-3 rounded-full bg-gray-100 p-px dark:bg-gray-500/20">
-                            <RiArrowRightUpLine
-                              aria-hidden="true"
-                              className="size-full shrink-0 text-gray-900 dark:text-gray-300"
-                            />
-                          </div>
-                        )}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+            <div>
+              <h3 className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-50">
+                Navegação
+              </h3>
+              <ul role="list" className="mt-6 space-y-4" aria-label="Quick links Resources">
+                {navigation.navegacao.map((item) => (
+                  <li key={item.name} className="w-fit">
+                    <Link
+                      className="flex rounded-md text-sm text-gray-500 transition hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
+                      href={item.href}
+                      target={item.button ? '_blank' : undefined}
+                      rel={item.button ? 'noopener noreferrer' : undefined}
+                    >
+                      <span>{item.name}</span>
+                      {item.button && <Button>Contato</Button>}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
-        <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-gray-200 pt-8 sm:mt-20 sm:flex-row lg:mt-24 dark:border-gray-800">
+        <div className="mt-12 w-[90%] flex flex-col items-center justify-between gap-2 border-t border-gray-200 pt-8 sm:mt-16 sm:flex-row lg:mt-24 dark:border-gray-800">
           <p className="text-sm leading-5 text-gray-500 dark:text-gray-400">
-            &copy; {new Date().getFullYear()} Database, Inc. All rights
-            reserved.
+            &copy; 2025 Iati Tech Software.
           </p>
-          <div className="rounded-full border border-gray-200 py-1 pl-1 pr-2 dark:border-gray-800">
-            <div className="flex items-center gap-1.5">
-              <div className="relative size-4 shrink-0">
-                <div className="absolute inset-[1px] rounded-full bg-emerald-500/20 dark:bg-emerald-600/20" />
-                <div className="absolute inset-1 rounded-full bg-emerald-600 dark:bg-emerald-500" />
-              </div>
-              <span className="text-xs text-gray-700 dark:text-gray-50">
-                All systems operational
-              </span>
-            </div>
-          </div>
         </div>
       </div>
     </footer>
-  )
+  );
 }

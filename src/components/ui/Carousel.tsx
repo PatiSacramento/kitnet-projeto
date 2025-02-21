@@ -1,18 +1,18 @@
 'use client';
 
-import React from 'react';
+import React, { FC } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
-import Image from "next/image"
+import Image from 'next/image';
 
 interface CarouselProps {
   images: string[];
 }
 
-const Carousel: React.FC<CarouselProps> = ({ images }) => {
+const Carousel: FC<CarouselProps> = ({ images }) => {
   return (
     <Swiper
       modules={[Navigation, Pagination]}
@@ -24,7 +24,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
       className="w-full h-full"
     >
       {images.map((src, index) => (
-        <SwiperSlide key={index} className='my-auto'>
+        <SwiperSlide key={index} className="my-auto">
           <Image
             src={src}
             alt={`Carousel image ${index + 1}`}
