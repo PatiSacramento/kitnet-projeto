@@ -1,10 +1,10 @@
 export const siteConfig = {
-  name: 'Database',
-  url: 'https://database.tremor.so',
-  description: 'The database for modern applications.',
+  name: 'KITUSP',
+  url: 'https://kitusp.com.br/',
+  description: 'Kitnets no Butantã, próximo à USP',
   baseLinks: {
     home: '/',
-    nossasKitnets: '/#nossas-kitnets',
+    nossasKitnets: '/',
     regiao: '/#regiao',
   },
 };

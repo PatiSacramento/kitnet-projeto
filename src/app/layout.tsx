@@ -14,31 +14,25 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://yoururl.com'),
+  metadataBase: new URL('https://kitusp.com.br/'),
   title: siteConfig.name,
   description: siteConfig.description,
-  keywords: ['Marketing', 'Database', 'Software'],
+  keywords: ['USP', 'Kitnet', 'Butantã'],
   authors: [
     {
-      name: 'yourname',
+      name: 'Iago Soriano',
       url: '',
     },
   ],
-  creator: 'yourname',
-  openGraph: {
-    type: 'website',
-    locale: 'en_US',
-    url: siteConfig.url,
-    title: siteConfig.name,
-    description: siteConfig.description,
-    siteName: siteConfig.name,
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: siteConfig.name,
-    description: siteConfig.description,
-    creator: '@yourname',
-  },
+  creator: 'Iago Soriano',
+  // openGraph: {
+  //   type: 'website',
+  //   locale: 'en_US',
+  //   url: siteConfig.url,
+  //   title: siteConfig.name,
+  //   description: siteConfig.description,
+  //   siteName: siteConfig.name,
+  // },
   icons: {
     icon: '/casa.png',
   },
