@@ -1,10 +1,15 @@
 import React from 'react';
 
 import { HomepageCard } from '@/components/home-page-card';
-import { AppProps } from 'next/app';
-import { FC } from 'react';
+// import { AppProps } from 'next/app';
+// import { FC } from 'react';
 
-const MyApp: FC<AppProps> = () => {
+// interface PageProps {
+//   params: { slug: string };
+//   searchParams: { [key: string]: string | string[] | undefined };
+// }
+
+const MyApp = () => {
   return (
     <main className="overflow-hidden w-[95%] mx-auto mt-[4rem] flex flex-col gap-4">
       <div id="nossas-kitnets" />

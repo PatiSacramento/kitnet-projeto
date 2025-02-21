@@ -1,12 +1,22 @@
+'use client';
+
 import Link from 'next/link';
 import { RiArrowLeftLine, RiArrowRightLine } from '@remixicon/react';
+import { usePathname } from 'next/navigation';
 
 type NavigationButtonsProps = {
-  kitKey: string;
-  allKits: Record<string, { content: (args: any) => JSX.Element; name: string }>;
 };
 
-export default function KitnetNavigationButton({ kitKey, allKits }: NavigationButtonsProps) {
+const allKits: Record<string, { name: string }> = {
+  ['abadia-dos-dourados-1']: { name: 'Kitnet Abadia dos Dourados 1' },
+  ['abadia-dos-dourados-2']: { name: 'Kitnet Abadia dos Dourados 2' },
+  ['abadia-dos-dourados-3']: { name: 'Kitnet Abadia dos Dourados 3' },
+  ['loft-rua-corinto']: { name: 'Loft Rua Corinto' },
+};
+
+export default function KitnetNavigationButton({}: NavigationButtonsProps) {
+  const pathname = usePathname();
+  const kitKey = pathname.split('/').filter(Boolean).slice(-1)[0];
   const kitKeys = Object.keys(allKits);
   const currentIndex = kitKeys.indexOf(kitKey);
 
